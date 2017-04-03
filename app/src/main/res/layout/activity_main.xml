@@ -25,12 +25,12 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
             android:layout_marginBottom="16dp"
             android:fontFamily="sans-serif"
             android:text="Toppings"
-            android:textAllCaps="true"
+
+            style="@style/HeaderTextStyle"
             android:textColor="@android:color/darker_gray" />
 
         <CheckBox
@@ -52,12 +52,11 @@
             android:textSize="16sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
             android:layout_marginBottom="16dp"
             android:fontFamily="sans-serif"
             android:text="Quantity"
-            android:textAllCaps="true"
+            style="@style/HeaderTextStyle"
             android:textColor="@android:color/darker_gray" />
 
         <LinearLayout
